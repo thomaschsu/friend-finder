@@ -17,5 +17,5 @@ Feeling lonely? Find a friend using this simple questionnaire. Get matched with 
 
 ### Instructions
 * Fill out 10 questions that have a scale of 1 to 5.
-* Receive a modal window that tell you your best match.
+* Receive a modal window that tells you your new best friend.
 * Enjoy!
