@@ -10,8 +10,8 @@ Feeling lonely? Find a friend using this simple questionnaire. Get matched with 
 2. Heroku
 3. JavaScript
 4. HTML
-5. CSS
-6. Bootstrap
+5. CSS / BootStrap
+6. Font Awesome
 
 - - - 
 ### Heroku Live Link
