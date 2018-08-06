@@ -3,6 +3,8 @@
 ### Description
 Feeling lonely? Find a friend using this simple questionnaire. Get matched with someone of similiar taste!
 
+- - -
+
 ### Skills Used
 1. Express
 2. Heroku
@@ -10,6 +12,8 @@ Feeling lonely? Find a friend using this simple questionnaire. Get matched with 
 4. HTML
 5. CSS
 6. Bootstrap
+
+- - -
 
 ### Instructions
 * Fill out 10 questions that have a scale of 1 to 5.
