@@ -6,10 +6,10 @@ Feeling lonely? Find a friend using this simple questionnaire. Get matched with 
 - - -
 ### Screenshots
 
-* This is the main page
+* Main page
 ![Image 1](/images/friend-1.jpg)
 
-* Screenshot of the survey page
+* Survey page
 ![Image 2](/images/friend-2.jpg)
 
 - - -
