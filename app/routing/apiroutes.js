@@ -9,6 +9,7 @@ module.exports = function(app) {
   });
 
   app.post("/api/friends", function(req, res) {
+      // Push the values into the array.
       friends.push(req.body);
       res.json(true);
   });
