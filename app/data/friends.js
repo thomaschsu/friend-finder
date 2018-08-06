@@ -1,7 +1,7 @@
 var friendsArray = [
     {
-        "name":"Ahmed",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name":"Bob",
+        "photo":"https://i.imgur.com/bS8gqKu.jpg",
         "scores":[
             5,
             1,
@@ -13,6 +13,70 @@ var friendsArray = [
             5,
             4,
             1
+          ]
+      },
+      {
+        "name":"Hyolee",
+        "photo":"https://i.imgur.com/ZDmq1Ay.jpg",
+        "scores":[
+            5,
+            5,
+            1,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            3
+          ]
+      },
+      {
+        "name":"Jake",
+        "photo":"https://i.imgur.com/2a07ALl.jpg",
+        "scores":[
+            1,
+            1,
+            1,
+            3,
+            4,
+            5,
+            3,
+            2,
+            1,
+            3
+          ]
+      },
+      {
+        "name":"Justin",
+        "photo":"https://i.imgur.com/COfzHjm.jpg",
+        "scores":[
+            5,
+            3,
+            1,
+            3,
+            4,
+            5,
+            2,
+            5,
+            1,
+            1
+          ]
+      },
+      {
+        "name":"Tzuyu",
+        "photo":"https://i.imgur.com/TBi96yr.jpg",
+        "scores":[
+            2,
+            3,
+            4,
+            1,
+            5,
+            5,
+            2,
+            1,
+            3,
+            3
           ]
       }
   ];

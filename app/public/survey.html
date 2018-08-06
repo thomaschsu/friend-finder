@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <title>Friend Finder</title>
-      <!-- Latest compiled and minified CSS & JS -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-      <!-- Font Awesome Glyphicons -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-   </head>
+    <head>
+        <meta charset="UTF-8">
+        <title>FriendFinder</title>
+        <!-- Latest compiled and minified CSS & JS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      
+        <!-- Font Awesome Glyphicons -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      </head>
    <body>
-      <div class="container">
-         <div class="jumbotron mt-5">
-            <h2 class="text-center">Survey Questions</h2>
+      <div class="container bg-light">
+         <div class="jumbotron mt-5 bg-primary">
+            <h2 class="text-center text-white">Answer the Questions below!</h2>
          </div>
+         <div class="container-2" style="width:85%; margin:0 auto;">
          <h4>Name <span class="text-danger">(Required)</span></h4>
          <input type="text" id="name" class="form-control" required="">
+         <br>
          <h4>Photo URL <span class="text-danger">(Required)</span></h4>
          <input type="text" id="photo" class="form-control" required="">
          <br><br>
@@ -120,9 +124,10 @@
          </select>
          <br><br>
          <!-- Submit Button -->
-         <button type="submit" class="btn btn-primary btn-lg btn-block w-25 mx-auto" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+         <button type="submit" class="btn btn-danger btn-lg btn-block w-25 mx-auto" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
          Submit</button>
          <hr>
+        </div>
          <footer class="footer">
             <div class="container">
                <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/thomaschsu/friend-finder">GitHub Repo</a></p>
@@ -177,9 +182,9 @@
           $("#match-img").attr("src", data.photo);
               
           // Show the modal with the best match
-          $("#results-modal").modal();
+          $("#results-modal").modal("toggle");
               
-            });
+          });
          }
          })
       </script>
