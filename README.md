@@ -14,7 +14,7 @@ Feeling lonely? Find a friend using this simple questionnaire. Get matched with 
 6. Bootstrap
 
 - - - 
-### Heroku Link
+### Heroku Live Link
 https://afternoon-river-28652.herokuapp.com/
 
 - - -
