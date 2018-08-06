@@ -1,7 +1,6 @@
 // Required packages
 var express = require("express");
 var bodyParser = require("body-parser");
-var path = require("path");
 
 // Tells node we are creating an express server
 var app = express();
