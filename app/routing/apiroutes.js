@@ -1,7 +1,6 @@
 // Requires friends js file
 var friends = require("../data/friends");
 
-
 module.exports = function(app) {
     // API GET Requests
     app.get("/api/friends", function(req, res) {
@@ -37,8 +36,11 @@ module.exports = function(app) {
             }
         }
 
+        // Create variable for new friend and send it
+        var newFriend = friends[match];
+        res.json(newFriend);
+
         // Push the values into the array.
         friends.push(req.body);
-        res.json(true);
     });
 };
