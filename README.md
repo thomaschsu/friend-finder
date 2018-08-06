@@ -4,6 +4,12 @@
 Feeling lonely? Find a friend using this simple questionnaire. Get matched with someone of similiar taste!
 
 - - -
+### Screenshots
+
+![Image 1](/images/friend-1.jpg)
+![Image 2](/images/friend-2.jpg)
+
+- - -
 
 ### Skills Used
 1. Express
