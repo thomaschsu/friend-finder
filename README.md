@@ -7,10 +7,10 @@ Feeling lonely? Find a friend using this simple questionnaire. Get matched with 
 ### Screenshots
 
 ##### Main Page
-![Image 1](/images/friend-1.jpg)
+![Image 1](/images/image01.gif)
 
 ##### Survey Page
-![Image 2](/images/friend-2.jpg)
+![Image 2](/images/image02.gif)
 
 - - -
 
@@ -34,3 +34,12 @@ https://afternoon-river-28652.herokuapp.com/
 * Fill out 10 questions that have a scale of 1 to 5.
 * Receive a modal window that tells you your new best friend.
 * Enjoy!
+
+- - -
+
+### Additional Information
+1. User's best match is determined using an algorithm
+2. First convert user's results into an array
+3. Compare user's array against every other user's array
+4. The absolute value is used for each answer score
+5. The closest match is the user with the least amount of difference.
