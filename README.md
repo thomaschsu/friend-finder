@@ -18,9 +18,11 @@ Feeling lonely? Find a friend using this simple questionnaire. Get matched with 
 1. Express
 2. Heroku
 3. JavaScript
+4. Node.js / NPM
 4. HTML
 5. CSS / BootStrap
 6. Font Awesome
+7. CLI
 
 - - - 
 ### Heroku Live Link
