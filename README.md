@@ -4,13 +4,9 @@
 Feeling lonely? Find a friend using this simple questionnaire. Get matched with someone of similiar taste!
 
 - - -
-### Screenshots
+### Demo
 
-##### Main Page
 ![Image 1](/images/image01.gif)
-
-##### Survey Page
-![Image 2](/images/image02.gif)
 
 - - -
 
